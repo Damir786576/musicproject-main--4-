@@ -1,0 +1,98 @@
+/* ============================================
+   GLOBAL CSS VARIABLES
+   ============================================ */
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* ==========================================
+     COLORS
+     ========================================== */
+  --color-primary: #51783f;
+  --color-primary-light: #789e66;
+  --color-accent-orange: #e89934;
+  --color-accent-salmon: #ff9b71;
+  --color-accent-salmon-dark: #cc693d;
+  --color-accent-pink: #da667b;
+  --color-accent-red: #e84855;
+  --color-accent-rose: #db9d9d;
+  
+  --color-text-dark: #0f172a;
+  --color-text-black: #000;
+  --color-text-gray: #5d675b;
+  --color-text-blue: #2b3a67;
+  
+  --color-bg-light: #f7f0f5;
+  --color-bg-white: #fff;
+  --color-bg-gray: #f8f8f8;
+
+  /* ==========================================
+     SPACING
+     ========================================== */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 40px;
+
+  /* ==========================================
+     BORDER RADIUS
+     ========================================== */
+  --radius-xs: 2px;
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 15px;
+  --radius-full: 50%;
+
+  /* ==========================================
+     TYPOGRAPHY
+     ========================================== */
+  --font-primary: 'Montserrat', sans-serif;
+  --font-secondary: 'Playfair Display', serif;
+
+  --font-size-xs: 14px;
+  --font-size-sm: 16px;
+  --font-size-md: 18px;
+  --font-size-lg: 20px;
+  --font-size-xl: 24px;
+  --font-size-2xl: 32px;
+  --font-size-3xl: 40px;
+  --font-size-4xl: 48px;
+  --font-size-5xl: 64px;
+
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.75;
+
+  /* ==========================================
+     BORDERS
+     ========================================== */
+  --border-accent: 2px solid var(--color-accent-salmon);
+
+  /* ==========================================
+     SHADOWS
+     ========================================== */
+  --shadow-text-salmon: 
+    1px 0 0 var(--color-accent-salmon),
+    0 1px 0 var(--color-accent-salmon),
+    -1px 0 0 var(--color-accent-salmon),
+    0 -1px 0 var(--color-accent-salmon);
+  
+  --shadow-text-green: 
+    1px 0 0 var(--color-primary),
+    0 1px 0 var(--color-primary),
+    -1px 0 0 var(--color-primary),
+    0 -1px 0 var(--color-primary);
+
+  /* ==========================================
+     SIZES
+     ========================================== */
+  --size-avatar-sm: 60px;
+  --size-avatar-lg: 100px;
+  --size-button-height: 36px;
+  --size-card-width: 552px;
+  --size-container-max: 1136px;
+}
